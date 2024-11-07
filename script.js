@@ -21,7 +21,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 // 3. სტრიქონის თითოეული ასოს დაბეჭდვა და თუ ასო 'a'-ია, დამატებითი ტექსტის დაბეჭდვა:
 
-let letter = "zdaroba braci lukavar suxo" 
+let letter = "me var saqartvelo" 
 
 for (let i = 0; i < letter.length; i++) {
    if(letter[i] === "a" ) {
