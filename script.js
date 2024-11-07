@@ -21,11 +21,11 @@ for (let i = 0; i < numbers.length; i++) {
 
 // 3. სტრიქონის თითოეული ასოს დაბეჭდვა და თუ ასო 'a'-ია, დამატებითი ტექსტის დაბეჭდვა:
 
-let letter = " gamarjoba me mqvia mariami " 
+let letter = "zdaroba braci lukavar suxo" 
 
 for (let i = 0; i < letter.length; i++) {
    if(letter[i] === "a" ) {
-    console.log(letter[i] , "ეს არის ასო ა");
+    console.log(letter[i] , "ასო ა");
    } else {
     console.log(letter[i]);
    }
@@ -35,11 +35,11 @@ for (let i = 0; i < letter.length; i++) {
 
 // 4. მასივიდან ["red", "green", "blue", "yellow"] მხოლოდ გრძელი სიტყვების (5 ასოზე მეტი) გამოტანა:
 
-let words = ["red", "green", "blue", "yellow"]
+let word = ["red", "green", "blue", "yellow"]
 
-for (let i = 0; i < words.length; i++) {
-    if(words[i].length > 5 ) {
-          console.log(words[i], "5 ასოზე მეტია");
+for (let i = 0; i < word.length; i++) {
+    if(word[i].length > 5 ) {
+          console.log(words[i] , "5 ასოზე მეტია");
     } 
 }
 
@@ -63,11 +63,11 @@ for (let i = 0; i < num.length; i++) {
 
 
 
-let word = 'javascript';
+let words = "javascript"
 
-for (let i = 0; i < word.length; i++) {
-    if (word[i] === 'j') {
-        console.log("შეჩერდა 'j'-ის გამო");
+for (let i = 0; i < words.length; i++) {
+    if (words[i] === 'j') {
+        console.log("შეჩერდა 'j'");
         break;
         
     }
@@ -87,9 +87,9 @@ for (let i = 0; i < num2.length; i++) {
 
 // 9. სტრიქონში 'hello world' თითოეული ასოს დაბეჭდვა, გამოტოვებით ასო 'o':
 
-let stc = "hello world"
-for (let i = 0; i < stc.length; i++) {
-   if(stc[i] !== "o") {
+let stv = "hello world"
+for (let i = 0; i < stv.length; i++) {
+   if(stv[i] !== "o") {
     console.log(stc[i]);
    }
 }
@@ -112,16 +112,16 @@ for (let i = 0; i < msv.length; i++) {
 console.log("ლუწი რიცვხების ჯამი" , sum);
 
 // 11. რიცხვის 10 გამრავლების ტაბულის დაბეჭდვა: (
-// 10 x 1 = 10
-// 10 x 2 = 20
-// 10 x 3 = 30
-// 10 x 4 = 40
-// 10 x 5 = 50
-// 10 x 6 = 60
-// 10 x 7 = 70
-// 10 x 8 = 80
-// 10 x 9 = 90
-// 10 x 10 = 100
+// 10 * 1 = 10
+// 10 * 2 = 20
+// 10 * 3 = 30
+// 10 * 4 = 40
+// 10 * 5 = 50
+// 10 * 6 = 60
+// 10 * 7 = 70
+// 10 * 8 = 80
+// 10 * 9 = 90
+// 10 * 10 = 100
 // )
 
 let num3 = 10
